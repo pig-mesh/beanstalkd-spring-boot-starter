@@ -1,0 +1,58 @@
+{
+  "hints": [],
+  "properties": [
+    {
+      "sourceType": "com.pig4cloud.beanstalkd.client.config.BeanstalkConfigProperties",
+      "name": "spring.beanstalkd",
+      "type": "com.pig4cloud.beanstalkd.client.config.BeanstalkConfigProperties"
+    },
+    {
+      "sourceType": "com.pig4cloud.beanstalkd.client.config.BeanstalkConfigProperties",
+      "name": "spring.beanstalkd.host",
+      "description": "beanstalkd 服务地址.",
+      "defaultValue": "localhost",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.pig4cloud.beanstalkd.client.config.BeanstalkConfigProperties",
+      "name": "spring.beanstalkd.prot",
+      "description": "beanstalkd 服务端口.",
+      "defaultValue": 11300,
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.pig4cloud.beanstalkd.client.config.BeanstalkConfigProperties",
+      "name": "spring.beanstalkd.jobMaxSize",
+      "description": "beanstalkd 最大job数量.",
+      "defaultValue": 65535,
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.pig4cloud.beanstalkd.client.config.BeanstalkConfigProperties",
+      "name": "spring.beanstalkd.charset",
+      "description": "beanstalkd 编码.",
+      "defaultValue": "ASCII",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.pig4cloud.beanstalkd.client.config.BeanstalkConfigProperties",
+      "name": "spring.beanstalkd.ignoreDefaultTube",
+      "description": "beanstalkd 是否忽略 默认tube.",
+      "defaultValue": false,
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.pig4cloud.beanstalkd.client.config.BeanstalkConfigProperties",
+      "name": "spring.beanstalkd.defaultTube",
+      "description": "beanstalkd 默认Tube 名称.",
+      "defaultValue": "pig4cloud",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.pig4cloud.beanstalkd.client.config.BeanstalkConfigProperties",
+      "name": "spring.beanstalkd.timeout",
+      "description": "beanstalkd 超时配置.",
+      "type": "com.pig4cloud.beanstalkd.client.config.BeanstalkTimeout"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.pig4cloud.beanstalkd.client.config.ApplicationStartInitializer,\
+    com.pig4cloud.beanstalkd.client.BeanstalkAutoConfiguration
