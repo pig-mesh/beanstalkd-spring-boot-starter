@@ -5,12 +5,12 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.4.RELEASE</version>
+        <version>2.6.7</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.pig4cloud.beanstalk</groupId>
     <artifactId>beanstalkd-client-spring-boot-starter</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>beanstalkd-client-spring-boot-starter</name>
     <description>beanstalkd-client</description>
     <url>https://pig4cloud.com</url>
@@ -37,7 +37,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <mina.version>2.1.3</mina.version>
+        <mina.version>2.1.6</mina.version>
     </properties>
 
     <dependencies>
